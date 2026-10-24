@@ -195,3 +195,6 @@ pub use utilities::{
     is_external_module_symbol, is_in_type_query, is_known_symbol, is_private_identifier_symbol,
     is_type_any, new_diagnostic_chain_for_node, skip_alias, value_to_string,
 };
+
+// SOLID-CHECKER FORK: the fork's only change to upstream files; see solid_checker_exports.rs.
+mod solid_checker_exports;
